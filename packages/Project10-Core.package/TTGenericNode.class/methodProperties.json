@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"exampleNode" : "p-otto 5/27/2015 11:29",
+		"fromOhmNode:" : "p-otto 5/30/2015 13:36",
+		"fromOhmNode:startingAt:" : "p-otto 5/30/2015 12:31",
+		"height" : "p-otto 5/30/2015 11:54",
+		"width" : "p-otto 5/30/2015 12:46" },
+	"instance" : {
+		"addChild:" : "p-otto 5/18/2015 17:59",
+		"addSelfAndChildrenToMorph:" : "p-otto 5/30/2015 13:05",
+		"addSelfAndChildrenToMorph:y:minX:maxX:" : "p-otto 5/30/2015 13:18",
+		"addToMorph:" : "p-otto 5/27/2015 15:46",
+		"color:" : "p-otto 5/30/2015 11:33",
+		"initialize" : "p-otto 5/30/2015 12:47",
+		"position" : "p-otto 5/27/2015 15:45",
+		"position:" : "p-otto 5/27/2015 15:42",
+		"text:" : "p-otto 5/30/2015 11:33" } }

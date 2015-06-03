@@ -1,0 +1,18 @@
+{
+	"category" : "Project10-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TViObjectView classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"model",
+		"scrollArea",
+		"treeMorph" ],
+	"name" : "TTTreeView",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"traitcomposition" : "TViObjectView",
+	"type" : "normal" }
