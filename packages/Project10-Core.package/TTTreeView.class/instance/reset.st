@@ -18,7 +18,7 @@ reset
 	scrollArea := UiScrollArea new.
 	scrollArea verticalScrollBarPolicy: #asNeeded;				  				  				    			  horizontalScrollBarPolicy: #asNeeded;
 				  position: self position;
-			  	  hResizing: #spaceFill;
+              hResizing: #spaceFill;
 				  vResizing: #spaceFill;
 				  widgetResizable: false;
 				  widget: treeMorph.

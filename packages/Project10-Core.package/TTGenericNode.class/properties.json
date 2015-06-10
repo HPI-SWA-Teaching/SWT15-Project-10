@@ -10,7 +10,8 @@
 		"children",
 		"position",
 		"textMorph",
-		"color" ],
+		"color",
+		"subtreeWidth" ],
 	"name" : "TTGenericNode",
 	"pools" : [
 		 ],
