@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 text: aText
 
 	morph text: aText

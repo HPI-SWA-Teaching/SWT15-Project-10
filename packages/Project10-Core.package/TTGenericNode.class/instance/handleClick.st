@@ -1,4 +1,4 @@
-as yet unclassified
+collapsing
 handleClick
 
 	areChildrenHidden ifTrue: [ self showChildren ] ifFalse: [self hideChildren ].

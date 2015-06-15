@@ -7,7 +7,5 @@ initialize
 	morph := TTNodeMorph new.
 	morph setNode: self.
 
-	placeHolderTriangle := PolygonMorph new.
-
 	areChildrenHidden := false
 	

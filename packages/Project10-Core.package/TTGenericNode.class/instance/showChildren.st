@@ -1,5 +1,5 @@
-as yet unclassified
+collapsing
 showChildren 
 
-	placeHolderTriangle hide.
+	placeholderTriangle hide.
 	children do: [ :child | child showSelfAndChildren ]

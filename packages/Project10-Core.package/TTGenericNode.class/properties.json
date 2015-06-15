@@ -7,12 +7,13 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"morph",
-		"placeHolderTriangle",
+		"placeholderTriangle",
 		"children",
 		"areChildrenHidden",
 		"position",
 		"color",
-		"subtreeWidth" ],
+		"subtreeWidth",
+		"subtreeDepth" ],
 	"name" : "TTGenericNode",
 	"pools" : [
 		 ],
