@@ -1,4 +1,4 @@
 as yet unclassified
 text: aText
 
-	morph text: aText
+	 textMorph newContents: aText

@@ -6,14 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"morph",
-		"children",
-		"areChildrenHidden",
-		"position",
-		"color",
-		"subtreeWidth" ],
-	"name" : "TTGenericNode",
+		"textMorph" ],
+	"name" : "TTNodeMorph",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "RectangleMorph",
 	"type" : "normal" }

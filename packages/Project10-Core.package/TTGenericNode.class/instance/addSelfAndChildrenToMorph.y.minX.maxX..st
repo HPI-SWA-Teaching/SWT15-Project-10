@@ -23,7 +23,7 @@ addSelfAndChildrenToMorph: aMorph y: yPos minX: minX maxX: maxX
 		firstPos := firstPos + aMorph position + ((TTGenericNode width / 2) @ -3).
 		lastPos := lastPos + aMorph position + ((TTGenericNode width / 2) @ -3).
 		line := LineMorph from: firstPos to: lastPos color: Color black width: 3.
-		aMorph addMorph: line.
+		(children at: 1) morph addMorph: line. "Hack: add line to child so the line get hidden when the child is hidden"
 	]. 
 
    ^ self position

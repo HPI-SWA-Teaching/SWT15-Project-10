@@ -10,12 +10,18 @@
 	"instance" : {
 		"addChild:" : "p-otto 5/18/2015 17:59",
 		"addSelfAndChildrenToMorph:" : "potto 6/9/2015 14:15",
-		"addSelfAndChildrenToMorph:y:minX:maxX:" : "potto 6/9/2015 15:03",
+		"addSelfAndChildrenToMorph:y:minX:maxX:" : "potto 6/15/2015 17:49",
 		"addToMorph:" : "p-otto 5/27/2015 15:46",
 		"calculateSubTreeWidth" : "potto 6/9/2015 14:37",
 		"color:" : "p-otto 5/30/2015 11:33",
-		"initialize" : "p-otto 5/30/2015 12:47",
+		"handleClick" : "potto 6/15/2015 17:53",
+		"hideChildren" : "potto 6/15/2015 17:45",
+		"hideSelfAndChildren" : "potto 6/15/2015 17:54",
+		"initialize" : "potto 6/15/2015 17:51",
+		"morph" : "potto 6/15/2015 17:49",
 		"position" : "p-otto 5/27/2015 15:45",
 		"position:" : "p-otto 5/27/2015 15:42",
+		"showChildren" : "potto 6/15/2015 17:54",
+		"showSelfAndChildren" : "potto 6/15/2015 17:55",
 		"subtreeWidth" : "potto 6/9/2015 14:01",
-		"text:" : "p-otto 5/30/2015 11:33" } }
+		"text:" : "potto 6/15/2015 17:32" } }
