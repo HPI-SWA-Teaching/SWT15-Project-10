@@ -12,8 +12,11 @@
 		"areChildrenHidden",
 		"position",
 		"color",
+		"originalNode",
 		"subtreeWidth",
-		"subtreeDepth" ],
+		"subtreeDepth",
+		"depthBlock",
+		"widthBlock" ],
 	"name" : "TTGenericNode",
 	"pools" : [
 		 ],

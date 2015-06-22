@@ -2,7 +2,7 @@ initialization
 reset
 	"Configure my view with actual data."
 
-	| root |
+	| properties root |
 
 	self model ifNil: [^ self].
 	self removeAllMorphs;
@@ -16,17 +16,26 @@ reset
 				 width: 400.
 
 	scrollArea := UiScrollArea new.
-	scrollArea verticalScrollBarPolicy: #asNeeded;				  				  				    			  horizontalScrollBarPolicy: #asNeeded;
+	scrollArea verticalScrollBarPolicy: #asNeeded;				  				  				  horizontalScrollBarPolicy: #asNeeded;
 				  position: self position;
-              hResizing: #spaceFill;
+              		  hResizing: #spaceFill;
 				  vResizing: #spaceFill;
 				  widgetResizable: false;
 				  widget: treeMorph.
 
 	self addMorph: scrollArea.
-	"scrollArea scrollToShow: treeMorph."
+	scrollArea scrollToShow: treeMorph.
 
-	(self model nodes size > 0) ifTrue: [
-		root := self model nodes first at: #object.
-		root addSelfAndChildrenToMorph: treeMorph.
-	]
+	(self model nodes size > 0) 
+		ifTrue: [ root := self model nodes first at: #object.]
+		ifFalse: [ ^ self ].
+
+	"set properties of TTGenericNode"
+	properties := self model nodes first.
+	
+	"add the generic nodes to treeMorph"
+	root addSelfAndChildrenToMorph: treeMorph.
+
+	(properties at: #collapsed) ifTrue: [
+		 root setAllCollapsed.
+		 root hideChildren ].

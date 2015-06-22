@@ -2,4 +2,9 @@ collapsing
 showSelfAndChildren 
 
 	morph show.
-	children do: [ :child | child showSelfAndChildren ]
+
+	children isEmpty ifTrue: [ ^ self ].
+	areChildrenHidden
+		ifTrue: [ placeholderTriangle show ]
+		ifFalse: [ children do: [ :child | child showSelfAndChildren ] ]
+	

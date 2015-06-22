@@ -6,4 +6,5 @@ initialize
 
 	textMorph := TTTextMorph new.
 	textMorph width: self width; height: self height.
+	textMorph autoFit: false.
 	self addMorph: textMorph.

@@ -1,5 +1,5 @@
 collapsing
 hideChildren 
 
-	placeholderTriangle show.
+	children isEmpty ifFalse: [ placeholderTriangle show ].
 	children do: [ :child | child hideSelfAndChildren ]
