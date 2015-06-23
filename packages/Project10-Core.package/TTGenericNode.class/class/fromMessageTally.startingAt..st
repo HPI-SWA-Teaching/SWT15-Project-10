@@ -3,11 +3,12 @@ fromMessageTally: aMessageTally startingAt: aGenericNode
 
 	| newGenericNode |
 
-	(aMessageTally value isKindOf: OhmNode) ifFalse: [ ^ false ].
+	"self halt."
+	(aMessageTally value isKindOf: MessageTally) ifFalse: [ ^ false ].
 
 	(aMessageTally receivers) do: [ :child |
 		newGenericNode := TTGenericNode new.
 		newGenericNode text: aMessageTally printString.
 		aGenericNode addChild: newGenericNode.
-		TTGenericNode fromOhmNode: child startingAt: newGenericNode.
+		TTGenericNode fromMessageTally: child startingAt: newGenericNode.
 	]

@@ -26,12 +26,12 @@ reset
 	self addMorph: scrollArea.
 
 	(self model nodes size > 0) 
-		ifTrue: [ root := self model nodes first at: #object.]
+		ifTrue: [ root := self model nodes first at: #object ]
 		ifFalse: [ ^ self ].
 
 	"set properties of TTGenericNode"
 	properties := self model nodes first.
-	
+
 	"add the generic nodes to treeMorph"
 	root addSelfAndChildrenToMorph: treeMorph.
 

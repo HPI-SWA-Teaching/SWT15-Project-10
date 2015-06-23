@@ -12,6 +12,6 @@ fromMessageTally: aMessageTally
 
 	root text: aMessageTally printString.
 	root color: Color red.
-	TTGenericNode fromOhmNode: aMessageTally startingAt: root.
+	TTGenericNode fromMessageTally: aMessageTally startingAt: root.
 
 	^ root.
