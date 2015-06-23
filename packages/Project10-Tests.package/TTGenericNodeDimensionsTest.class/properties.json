@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"demo" ],
-	"name" : "SwtProject10DemoTest",
+		"node" ],
+	"name" : "TTGenericNodeDimensionsTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
