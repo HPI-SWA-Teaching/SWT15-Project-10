@@ -1,4 +1,0 @@
-accessing
-originalNode
-
-	^ originalNode

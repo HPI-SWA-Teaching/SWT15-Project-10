@@ -1,4 +1,0 @@
-accessing
-depthBlock
-
-	^ depthBlock
