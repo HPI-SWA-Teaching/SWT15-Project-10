@@ -10,11 +10,8 @@ fromOhmNode: aNode
 		^ root
 	]. 
 
-	root text: aNode ruleName;
-		  color: Color red;
-		  originalNode: aNode.
-
-	"start recursive traversal"
+	root text: aNode ruleName.
+	root color: Color red.
 	TTGenericNode fromOhmNode: aNode startingAt: root.
 
 	^ root.
