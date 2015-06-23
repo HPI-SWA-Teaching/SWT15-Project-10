@@ -1,8 +1,8 @@
 definitions
-def8f868765955d4dc4b967483c983ed021
+def99e746bab1b52142b39e2d8ef6a4cc73
 	<definition>
 
-	^ ((Dictionary new) add: (#class->ViQueryStepDefinition); add: (#properties->((Dictionary new) add: (#creationAuthor->'potto'); add: (#creationTimeStamp->'22 June 2015 6:10:32 pm'); yourself)); add: (#id->#'8f868765-955d-4dc4-b967-483c983ed021'); add: (#block->[:in :out | ([:all | all collect: [:o |
+	^ ((Dictionary new) add: (#class->ViQueryStepDefinition); add: (#properties->((Dictionary new) add: (#creationAuthor->'JKW'); add: (#creationTimeStamp->'23 June 2015 9:41:03 pm'); yourself)); add: (#id->#'99e746ba-b1b5-2142-b39e-2d8ef6a4cc73'); add: (#block->[:in :out | ([:all | all collect: [:o |
 	([:obj | {
 		[:object | #collapsed -> true] value: obj }]
 			value: o), { #object -> o }]]

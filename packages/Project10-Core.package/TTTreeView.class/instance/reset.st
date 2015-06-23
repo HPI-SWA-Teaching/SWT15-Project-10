@@ -24,7 +24,6 @@ reset
 				  widget: treeMorph.
 
 	self addMorph: scrollArea.
-	scrollArea scrollToShow: treeMorph.
 
 	(self model nodes size > 0) 
 		ifTrue: [ root := self model nodes first at: #object.]
@@ -39,3 +38,5 @@ reset
 	(properties at: #collapsed) ifTrue: [
 		 root setAllCollapsed.
 		 root hideChildren ].
+
+	scrollArea scrollToShow: root morph..
