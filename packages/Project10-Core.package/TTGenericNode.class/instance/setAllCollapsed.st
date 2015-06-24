@@ -1,0 +1,4 @@
+collapsing
+setAllCollapsed 
+
+	^ nil

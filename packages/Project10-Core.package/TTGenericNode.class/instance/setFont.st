@@ -1,5 +1,4 @@
-accessing
-text: aText
+as yet unclassified
+setFont
 
-	morph text: aText.
 	morph textMorph fontName: 'Sergoe' size: 10.
