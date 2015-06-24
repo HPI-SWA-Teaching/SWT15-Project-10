@@ -2,4 +2,7 @@ collapsing
 showSelfAndChildren 
 
 	morph show.
-	children do: [ :child | child showSelfAndChildren ]
+	areChildrenHidden 
+		ifTrue: [ self hideChildren ] 
+		ifFalse: [children do: [ :child | child showSelfAndChildren ]]
+	
