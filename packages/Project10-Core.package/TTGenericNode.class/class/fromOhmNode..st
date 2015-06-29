@@ -11,7 +11,7 @@ fromOhmNode: aNode
 	]. 
 
 	root text: aNode ruleName.
-	root color: Color red.
+	root color: (Color r: 1.0 g: 0.5 b: 0.5).
 	TTGenericNode fromOhmNode: aNode startingAt: root.
 
 	^ root.
