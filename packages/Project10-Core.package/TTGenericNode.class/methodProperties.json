@@ -3,11 +3,12 @@
 		"childPadding" : "potto 6/9/2015 14:40",
 		"fromMessageTally:" : "potto 6/24/2015 11:08",
 		"fromMessageTally:startingAt:" : "potto 6/29/2015 11:21",
-		"fromOhmNode:" : "potto 6/29/2015 10:57",
-		"fromOhmNode:startingAt:" : "potto 6/29/2015 11:19",
+		"fromOhmNode:" : "potto 6/29/2015 14:06",
+		"fromOhmNode:startingAt:" : "potto 6/29/2015 14:07",
 		"height" : "potto 6/29/2015 10:07",
 		"subtreePadding" : "potto 6/9/2015 14:39",
-		"width" : "potto 6/15/2015 19:16" },
+		"text:color:" : "potto 6/29/2015 14:05",
+		"width" : "potto 6/29/2015 14:40" },
 	"instance" : {
 		"addChild:" : "p-otto 5/18/2015 17:59",
 		"addSelfAndChildrenToMorph:" : "potto 6/23/2015 22:08",
@@ -24,8 +25,8 @@
 		"position" : "p-otto 5/27/2015 15:45",
 		"position:" : "p-otto 5/27/2015 15:42",
 		"setAllCollapsed" : "potto 6/24/2015 12:08",
-		"setFont" : "potto 6/24/2015 11:07",
+		"setFont" : "potto 6/29/2015 11:27",
 		"showChildren" : "potto 6/15/2015 19:30",
 		"showSelfAndChildren" : "potto 6/24/2015 12:09",
 		"subtreeWidth" : "potto 6/9/2015 14:01",
-		"text:" : "potto 6/24/2015 11:08" } }
+		"text:" : "potto 6/29/2015 11:27" } }

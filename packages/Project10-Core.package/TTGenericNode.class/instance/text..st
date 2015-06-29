@@ -2,4 +2,4 @@ accessing
 text: aText
 
 	morph text: aText.
-	morph textMorph fontName: 'Sergoe' size: 10.
+	self setFont.

@@ -16,7 +16,8 @@ reset
 				 width: 400.
 
 	scrollArea := UiScrollArea new.
-	scrollArea verticalScrollBarPolicy: #asNeeded;				  				  				  horizontalScrollBarPolicy: #asNeeded;
+	scrollArea verticalScrollBarPolicy: #asNeeded;
+				 horizontalScrollBarPolicy: #asNeeded;
 				  position: self position;
               		  hResizing: #spaceFill;
 				  vResizing: #spaceFill;

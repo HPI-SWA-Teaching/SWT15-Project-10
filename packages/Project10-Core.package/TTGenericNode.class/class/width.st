@@ -1,4 +1,4 @@
 as yet unclassified
 width
 
-	^ 75
+	^ 100
