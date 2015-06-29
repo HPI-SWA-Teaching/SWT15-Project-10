@@ -13,7 +13,7 @@ addToMorph: aMorph
 		with: 0@10 + offset
 		with: (-1 * width@depth) + offset
 		with: width@depth + offset).
-	placeholderTriangle := PolygonMorph vertices: verts color: Color black borderWidth: 2 borderColor: Color black.
+	placeholderTriangle := PolygonMorph vertices: verts color: morph color borderWidth: 2 borderColor: Color black.
 
 	aMorph addMorph: placeholderTriangle.
 	placeholderTriangle hide.
