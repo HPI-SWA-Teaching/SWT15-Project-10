@@ -5,4 +5,4 @@ getGrammarNamed: grammarName
 
 	allGrammars := OhmGrammarSmalltalkProxy allSubclasses collect: [:class | class OhmInstance].
  	^ (allGrammars select: [ :ohmInstance | 
-		ohmInstance grammarName = grammarName]) at: 1 ifAbsent: [^ -1].
+		ohmInstance grammarName = grammarName]) at: 1 ifAbsent: [self error: 'There is no grammar by this name'].
