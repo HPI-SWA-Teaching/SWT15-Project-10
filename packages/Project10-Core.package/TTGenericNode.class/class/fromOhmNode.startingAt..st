@@ -3,7 +3,7 @@ fromOhmNode: anOhmNode startingAt: aGenericNode
 
 	| newGenericNode |
 
-	(anOhmNode value isKindOf: OhmNode) ifFalse: [aGenericNode text: anOhmNode. ^ self ].
+	(anOhmNode isKindOf: ByteString) ifTrue: [ aGenericNode text: anOhmNode. ^ self ].
 	aGenericNode text: anOhmNode ruleName.
 
 	(anOhmNode children) do: [ :child |
