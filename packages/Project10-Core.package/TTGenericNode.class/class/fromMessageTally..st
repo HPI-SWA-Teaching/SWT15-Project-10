@@ -11,7 +11,7 @@ fromMessageTally: aMessageTally
 	]. 
 
 	root text: aMessageTally printString.
-	root color: Color red.
+	root color: Color white.
 	TTGenericNode fromMessageTally: aMessageTally startingAt: root.
 
 	^ root.
