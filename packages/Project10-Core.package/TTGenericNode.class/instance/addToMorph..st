@@ -6,7 +6,7 @@ addToMorph: aMorph
 	morph position: aMorph position + self position.
 	aMorph addMorph: morph.
 
-	offset := morph position + ((TTGenericNode width * 0.5) @ (TTGenericNode height)).
+	offset := morph position + ((self width * 0.5) @ (self height)).
 	width := subtreeWidth * 0.1.
 	depth := subtreeDepth * 0.5.
 	verts := (Array 

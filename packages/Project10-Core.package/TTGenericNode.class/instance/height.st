@@ -1,4 +1,4 @@
 as yet unclassified
-width
+height
 
-	^ 100
+	^morph height
