@@ -1,0 +1,9 @@
+as yet unclassified
+testGrammarCreation
+	| numGrammars allGrammars |	
+
+	numGrammars := OhmGrammarSmalltalkProxy allSubclasses size.
+	TTOhmGrammarTools create: self grammarName.
+	self assert: OhmGrammarSmalltalkProxy allSubclasses size >= numGrammars.
+	allGrammars := OhmGrammarSmalltalkProxy allSubclasses collect: [:class | class OhmInstance].
+	self assert: (allGrammars findFirst: [ :grammar | grammar grammarName = self grammarName ]) ~= 0. 
