@@ -1,8 +1,9 @@
 {
 	"class" : {
 		"addRule:to:" : "SK 6/24/2015 14:40",
+		"allGrammars" : "SK 7/12/2015 11:50",
 		"create:" : "SK 6/24/2015 14:08",
-		"getGrammarNamed:" : "JKW 6/29/2015 13:50",
+		"getGrammarNamed:" : "SK 7/12/2015 11:51",
 		"remove:" : "SK 6/24/2015 14:01",
 		"rename:to:" : "SK 6/24/2015 14:01",
 		"setSuperGrammarOf:to:" : "JKW 6/29/2015 13:50" },
