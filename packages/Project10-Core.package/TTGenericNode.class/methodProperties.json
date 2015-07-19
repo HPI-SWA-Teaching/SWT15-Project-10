@@ -5,6 +5,8 @@
 		"fromMessageTally:startingAt:" : "potto 6/29/2015 11:21",
 		"fromOhmNode:" : "JKW 7/11/2015 20:43",
 		"fromOhmNode:startingAt:" : "potto 7/6/2015 15:30",
+		"fromQueryNode:" : "potto 7/13/2015 15:18",
+		"fromQueryNode:startingAt:" : "potto 7/13/2015 15:08",
 		"subtreePadding" : "JKW 7/13/2015 14:24",
 		"text:color:" : "potto 6/29/2015 14:05" },
 	"instance" : {
@@ -14,6 +16,7 @@
 		"addToMorph:" : "JKW 7/12/2015 22:12",
 		"calculateSubTreeDepth" : "JKW 7/12/2015 22:10",
 		"calculateSubTreeWidth" : "JKW 7/12/2015 22:10",
+		"children" : "potto 7/13/2015 14:13",
 		"color:" : "p-otto 5/30/2015 11:33",
 		"handleClick" : "potto 6/29/2015 10:05",
 		"height" : "JKW 7/13/2015 14:11",

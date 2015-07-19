@@ -2,7 +2,7 @@ initialization
 reset
 	"Configure my view with actual data."
 
-	| properties root |
+	| root genericNode |
 
 	self model ifNil: [^ self].
 	self removeAllMorphs;
@@ -27,17 +27,15 @@ reset
 	self addMorph: scrollArea.
 
 	(self model nodes size > 0) 
-		ifTrue: [ root := self model nodes first at: #object ]
+		ifTrue: [ root := self model nodes first ]
 		ifFalse: [ ^ self ].
 
-	"set properties of TTGenericNode"
-	properties := self model nodes first.
-
 	"add the generic nodes to treeMorph"
-	root addSelfAndChildrenToMorph: treeMorph.
+	genericNode := TTGenericNode fromQueryNode: root.
+	genericNode addSelfAndChildrenToMorph: treeMorph.
 
-	(properties at: #collapsed) ifTrue: [
+	"(properties at: #collapsed) ifTrue: [
 		 root setAllCollapsed.
-		 root hideChildren ].
+		 root hideChildren ]."
 
-	scrollArea scrollToShow: root morph..
+	scrollArea scrollToShow: genericNode morph.
