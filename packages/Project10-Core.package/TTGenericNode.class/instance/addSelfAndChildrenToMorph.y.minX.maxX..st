@@ -1,21 +1,23 @@
 as yet unclassified
 addSelfAndChildrenToMorph: aMorph y: yPos minX: minX maxX: maxX
 	
-	| newX width stepX line firstPos lastPos curPos count |
+	| newX width line firstPos lastPos curPos count |
 
 	width := maxX - minX.
 	self position: (minX + (width / 2) - (self width / 2)) @ yPos.
 	self addToMorph: aMorph.
 
-	children size = 0 ifTrue: [ ^ self position ].
-	newX := minX + (TTGenericNode subtreePadding / 2).
+	newX := minX.
+
+	(children size = 1) ifTrue: [ 
+		children first addSelfAndChildrenToMorph: aMorph y: (yPos + self height + 5) minX: newX maxX: (newX + self subtreeWidth).
+		^ self position ].
 
 	count := 0.
 	children do: [:child |
-		stepX := child subtreeWidth + TTGenericNode childPadding.
-		curPos := child addSelfAndChildrenToMorph: aMorph y: (yPos + self height + 5) minX: newX maxX: (newX + stepX).
+		curPos := child addSelfAndChildrenToMorph: aMorph y: (yPos + self height + 5) minX: newX maxX: (newX + child subtreeWidth).
 		(count = 0) ifTrue: [ firstPos := curPos ] ifFalse: [ lastPos := curPos ].
-		newX := newX + stepX.
+		newX := newX + child subtreeWidth.
 		count := count + 1.
 	].
 

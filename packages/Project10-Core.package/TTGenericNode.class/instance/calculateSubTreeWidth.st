@@ -1,8 +1,7 @@
 as yet unclassified
 calculateSubTreeWidth
 
-	(children isEmpty) 
-		ifTrue: [ subtreeWidth := self width + TTGenericNode childPadding ]
-		ifFalse: [ subtreeWidth := children inject: TTGenericNode subtreePadding into: [ :a :b | a + b calculateSubTreeWidth]].
+	subtreeWidth := children inject: 0 into: [ :a :b | a + b calculateSubTreeWidth].
+	self width > subtreeWidth ifTrue: [ subtreeWidth := self width + TTGenericNode childPadding ].
 
 	^ subtreeWidth
