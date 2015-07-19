@@ -1,17 +1,16 @@
 {
 	"class" : {
-		"childPadding" : "potto 6/9/2015 14:40",
+		"childPadding" : "potto 7/19/2015 21:34",
 		"fromQueryNode:" : "potto 7/13/2015 15:18",
 		"fromQueryNode:startingAt:" : "potto 7/13/2015 15:08",
-		"subtreePadding" : "potto 6/9/2015 14:39",
 		"text:color:" : "potto 6/29/2015 14:05" },
 	"instance" : {
 		"addChild:" : "p-otto 5/18/2015 17:59",
-		"addSelfAndChildrenToMorph:" : "potto 6/23/2015 22:08",
-		"addSelfAndChildrenToMorph:y:minX:maxX:" : "JKW 7/12/2015 22:13",
+		"addSelfAndChildrenToMorph:" : "potto 7/19/2015 21:12",
+		"addSelfAndChildrenToMorph:y:minX:maxX:" : "potto 7/19/2015 21:29",
 		"addToMorph:" : "JKW 7/12/2015 22:12",
 		"calculateSubTreeDepth" : "JKW 7/12/2015 22:10",
-		"calculateSubTreeWidth" : "JKW 7/12/2015 22:10",
+		"calculateSubTreeWidth" : "potto 7/19/2015 21:35",
 		"children" : "potto 7/13/2015 14:13",
 		"color:" : "p-otto 5/30/2015 11:33",
 		"handleClick" : "potto 6/29/2015 10:05",
