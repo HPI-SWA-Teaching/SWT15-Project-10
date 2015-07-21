@@ -1,10 +1,10 @@
 as yet unclassified
 fromQueryNode: aQueryNode startingAt: aGenericNode
 
-	| newGenericNode nodeText |
+	| newGenericNode |
 
-	nodeText := aQueryNode at: #text.
-	aGenericNode text: nodeText.
+	aGenericNode text: (aQueryNode at: #text).
+	aGenericNode color: (aQueryNode at: #color ifAbsent: Color white).
 
 	(aQueryNode nodes) do: [ :child |
 		(child at: #text) ifNotNil: [

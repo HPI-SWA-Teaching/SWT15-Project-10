@@ -1,4 +1,4 @@
 as yet unclassified
-childPadding 
+textMargin
 
 	^ 5

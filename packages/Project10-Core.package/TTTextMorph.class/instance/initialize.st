@@ -3,5 +3,7 @@ initialize
 
 	super initialize.
 	self centered;
-		 margins: 2;
-		 readOnly: true.
+		 margins: TTTextMorph textMargin;
+		 readOnly: true;
+		 autoFit: true;
+		 wrapOnOff

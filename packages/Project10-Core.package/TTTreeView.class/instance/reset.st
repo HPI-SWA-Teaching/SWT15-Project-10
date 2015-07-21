@@ -34,8 +34,8 @@ reset
 	genericNode := TTGenericNode fromQueryNode: root.
 	genericNode addSelfAndChildrenToMorph: treeMorph.
 
-	"(properties at: #collapsed) ifTrue: [
-		 root setAllCollapsed.
-		 root hideChildren ]."
+	(root at: #collapsed ifAbsent: false) ifTrue: [
+		 genericNode setAllCollapsed.
+		 genericNode hideChildren ].
 
 	scrollArea scrollToShow: genericNode morph.

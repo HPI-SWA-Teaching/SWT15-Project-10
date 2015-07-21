@@ -1,12 +1,14 @@
 as yet unclassified
 fromQueryNode: aNode
 
-	| root nodeText isText |
+	| root |
 	
 	root := TTGenericNode new.
-	nodeText := aNode at: #text.
-	isText := (nodeText isKindOf: ByteString) or: (nodeText isKindOf: ByteSymbol).
-	isText ifTrue: [ root text: nodeText ] ifFalse: [ root text: 'none'. ^ root ].
+
+	root color: (aNode at: #color ifAbsent: Color white).
+	(aNode keys includes: #text) ifFalse: [ root text: 'false'. ^ root ].
+	root text: (aNode at: #text).
+
 	TTGenericNode fromQueryNode: aNode startingAt: root.
 
 	^ root.

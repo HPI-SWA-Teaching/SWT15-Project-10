@@ -1,4 +1,4 @@
-as yet unclassified
+private
 addToMorph: aMorph
 
 	| verts offset width depth |

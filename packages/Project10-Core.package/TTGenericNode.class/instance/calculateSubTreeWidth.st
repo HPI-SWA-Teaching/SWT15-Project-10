@@ -1,4 +1,4 @@
-as yet unclassified
+private
 calculateSubTreeWidth
 
 	subtreeWidth := children inject: 0 into: [ :a :b | a + b calculateSubTreeWidth].

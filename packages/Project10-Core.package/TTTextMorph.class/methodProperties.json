@@ -1,9 +1,9 @@
 {
 	"class" : {
-		 },
+		"textMargin" : "potto 7/21/2015 23:30" },
 	"instance" : {
 		"handlesMouseDown:" : "potto 6/15/2015 17:28",
-		"initialize" : "potto 7/6/2015 15:27",
+		"initialize" : "potto 7/21/2015 23:30",
 		"mouseDown:" : "potto 6/15/2015 17:53",
 		"mouseUp:" : "potto 6/15/2015 17:44",
 		"setNode:" : "potto 6/15/2015 17:34" } }
