@@ -1,5 +1,5 @@
 {
-	"category" : "Project10-Core",
+	"category" : "Project10-Scripts",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "Scripts",
+	"name" : "TTScripts",
 	"pools" : [
 		 ],
 	"super" : "ViScriptArchive",
