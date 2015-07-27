@@ -1,6 +1,6 @@
 as yet unclassified
 create: aName
 
-	^ OhmGrammar makeAndInstallGrammar: (aName , ' {}') in: nil.
+	^ OhmGrammar makeAndInstallGrammar: (aName , ' {}') in: nil
 
 	

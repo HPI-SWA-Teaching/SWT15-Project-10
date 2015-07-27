@@ -1,4 +1,4 @@
 accessing
 height
 
-	^morph height
+	^ morph height

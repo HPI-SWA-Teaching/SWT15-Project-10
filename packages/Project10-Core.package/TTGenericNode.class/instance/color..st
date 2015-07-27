@@ -1,4 +1,4 @@
 accessing
 color: aColor
 
-	morph color: aColor
+	morph color: aColor.

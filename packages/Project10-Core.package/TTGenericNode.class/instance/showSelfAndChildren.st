@@ -4,5 +4,5 @@ showSelfAndChildren
 	morph show.
 	areChildrenHidden 
 		ifTrue: [ self hideChildren ] 
-		ifFalse: [children do: [ :child | child showSelfAndChildren ]]
+		ifFalse: [children do: [ :child | child showSelfAndChildren ]].
 	

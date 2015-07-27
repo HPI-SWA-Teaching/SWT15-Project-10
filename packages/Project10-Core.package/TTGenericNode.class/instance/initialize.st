@@ -9,5 +9,5 @@ initialize
 	morph := TTNodeMorph new.
 	morph setNode: self.
 
-	areChildrenHidden := false
+	areChildrenHidden := false.
 	

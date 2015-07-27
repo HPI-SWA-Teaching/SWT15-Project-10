@@ -2,4 +2,4 @@ collapsing
 showChildren 
 
 	placeholderTriangle hide.
-	children do: [ :child | child showSelfAndChildren ]
+	children do: [ :child | child showSelfAndChildren ].

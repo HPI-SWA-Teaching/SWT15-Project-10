@@ -11,4 +11,4 @@ fromQueryNode: aNode
 
 	TTGenericNode fromQueryNode: aNode startingAt: root.
 
-	^ root.
+	^ root
