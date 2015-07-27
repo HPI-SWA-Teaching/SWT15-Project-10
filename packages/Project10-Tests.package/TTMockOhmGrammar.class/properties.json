@@ -1,0 +1,15 @@
+{
+	"category" : "Project10-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"grammarName",
+		"smalltalkPlaceholder" ],
+	"name" : "TTMockOhmGrammar",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

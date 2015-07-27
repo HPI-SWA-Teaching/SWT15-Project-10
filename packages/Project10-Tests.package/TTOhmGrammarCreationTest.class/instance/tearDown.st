@@ -2,4 +2,5 @@ as yet unclassified
 tearDown
 	super tearDown.
 
-	TTOhmGrammarTools remove: (TTOhmGrammarTools getGrammarNamed: self grammarName).
+	(OhmGrammar category = #'Project10-Tests')
+		ifTrue: [ OhmGrammar removeFromSystem. ]
