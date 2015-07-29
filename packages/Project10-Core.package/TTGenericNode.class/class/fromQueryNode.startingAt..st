@@ -3,7 +3,7 @@ fromQueryNode: aQueryNode startingAt: aGenericNode
 
 	| newGenericNode |
 
-	aGenericNode text: (aQueryNode at: #text).
+	aGenericNode text: (aQueryNode at: #text) asString.
 	aGenericNode color: (aQueryNode at: #color ifAbsent: Color white).
 
 	(aQueryNode nodes) do: [ :child |
