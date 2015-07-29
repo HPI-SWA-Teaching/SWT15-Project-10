@@ -10,5 +10,5 @@
 	"name" : "TTMockSmalltalkProxy",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TTMockObject",
 	"type" : "normal" }
