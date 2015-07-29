@@ -1,7 +1,7 @@
 accessing
 testTreeWidthGreaterThanChildren
 	| minWidth |
-	minWidth := self children
+	minWidth := self node children
 				inject: 0
 				into: [:sum :child | sum + child height].
 	self assert: self node calculateSubTreeWidth > minWidth.

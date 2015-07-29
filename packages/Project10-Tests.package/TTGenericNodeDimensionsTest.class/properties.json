@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"node",
-		"children" ],
+		"node" ],
 	"name" : "TTGenericNodeDimensionsTest",
 	"pools" : [
 		 ],

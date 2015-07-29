@@ -2,10 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"children" : "SK 7/13/2015 14:43",
-		"children:" : "SK 7/13/2015 14:43",
 		"node" : "SK 6/23/2015 23:53",
 		"node:" : "SK 6/23/2015 23:53",
-		"setUp" : "SK 7/13/2015 14:44",
-		"testTreeDepthGreaterThanNodes" : "SK 7/13/2015 14:48",
-		"testTreeWidthGreaterThanChildren" : "SK 7/13/2015 14:49" } }
+		"setUp" : "SK 7/29/2015 20:17",
+		"testTreeDepthGreaterThanNodes" : "SK 7/29/2015 20:17",
+		"testTreeWidthGreaterThanChildren" : "SK 7/29/2015 20:17" } }
