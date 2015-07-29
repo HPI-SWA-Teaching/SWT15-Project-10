@@ -4,6 +4,6 @@ initialize
 	super initialize.
 	self centered;
 		 margins: TTTextMorph textMargin;
-		 readOnly: true;
+		 "readOnly: true;"
 		 autoFit: true;
 		 wrapOnOff
