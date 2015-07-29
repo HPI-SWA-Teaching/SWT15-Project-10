@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "TTOhmGrammarCreationTest",
+		"grammar" ],
+	"name" : "TTOhmGrammarToolTest",
 	"pools" : [
 		 ],
-	"super" : "TTOhmGrammarToolTest",
+	"super" : "TestCase",
 	"type" : "normal" }
