@@ -1,14 +1,8 @@
 as yet unclassified
 setUp 
 
-	|class grammarName|
-
 	super setUp.
-	grammarName := 'TestGrammar'.
-	self grammar: TTMockOhmGrammar new.
-	grammar grammarName: grammarName.
-	class := OhmGrammarSmalltalkProxy subclass: #TestGrammar instanceVariableNames: '' classVariableNames: '' poolDictionaries: '' category: 'Project10-Tests'.
-	self grammar smalltalkPlaceholder: class.
+	self grammar: (self createMockGrammarNamed: self grammarName).
 	.	
 	
 	

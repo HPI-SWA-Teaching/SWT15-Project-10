@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "TTOhmRuleCreationText",
+		"superGrammar" ],
+	"name" : "TTOhmSuperGrammarTest",
 	"pools" : [
 		 ],
 	"super" : "TTOhmGrammarToolTest",
