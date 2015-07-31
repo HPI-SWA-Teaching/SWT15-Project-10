@@ -4,4 +4,5 @@
 	"instance" : {
 		"setUp" : "potto 7/31/2015 14:41",
 		"testCollapseChildren" : "potto 7/31/2015 14:45",
-		"testCollapseSelfAndChildren" : "potto 7/31/2015 14:45" } }
+		"testCollapseSelfAndChildren" : "potto 7/31/2015 14:45",
+		"testHandleClick" : "potto 7/31/2015 14:53" } }
