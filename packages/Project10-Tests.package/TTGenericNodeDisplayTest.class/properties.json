@@ -1,0 +1,15 @@
+{
+	"category" : "Project10-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"node",
+		"morph" ],
+	"name" : "TTGenericNodeDisplayTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
