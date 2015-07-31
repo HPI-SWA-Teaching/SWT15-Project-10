@@ -1,17 +1,21 @@
 as yet unclassified
 setUp 
 
-	|class|
+	|class grammarName|
+
 	super setUp.
+	TTMockSmalltalkProxy createMockClassIfNotExists: #OhmGrammarSmalltalkProxy.
+	grammarName := 'TestGrammar'.
 	(Object subclasses select: [ :object | object name = #Ohm])
 		ifEmpty: [
 			self grammar: TTMockOhmGrammar new.
-			class := TTMockSmalltalkProxy subclass: #TestGrammar instanceVariableNames: '' classVariableNames: '' poolDictionaries: '' category: 'Project10-Tests'.
+			grammar grammarName: grammarName.
+			class := OhmGrammarSmalltalkProxy subclass: #TestGrammar instanceVariableNames: '' classVariableNames: '' poolDictionaries: '' category: 'Project10-Tests'.
 			self grammar smalltalkPlaceholder: class.
 		] 
 		ifNotEmpty: [
-			self grammar: (TTOhmGrammarTools create: 'TestGrammar').
+			self grammar: (TTOhmGrammarTools create: grammarName).
 		]
 	.	
-	TTMockSmalltalkProxy createMockClassIfNotExists: #OhmGrammarSmalltalkProxy.
+	
 	

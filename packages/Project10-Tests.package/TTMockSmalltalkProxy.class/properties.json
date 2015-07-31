@@ -1,12 +1,12 @@
 {
 	"category" : "Project10-Tests",
 	"classinstvars" : [
-		 ],
+		"grammar" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"grammar" ],
 	"name" : "TTMockSmalltalkProxy",
 	"pools" : [
 		 ],
