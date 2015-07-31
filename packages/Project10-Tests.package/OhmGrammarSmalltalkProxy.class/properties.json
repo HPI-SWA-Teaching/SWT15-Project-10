@@ -1,0 +1,14 @@
+{
+	"category" : "Project10-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OhmGrammarSmalltalkProxy",
+	"pools" : [
+		 ],
+	"super" : "TTMockSmalltalkProxy",
+	"type" : "normal" }
