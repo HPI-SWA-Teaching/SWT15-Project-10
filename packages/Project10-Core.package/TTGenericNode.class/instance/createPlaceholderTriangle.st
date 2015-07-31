@@ -10,4 +10,4 @@ createPlaceholderTriangle
 		with: 0@10 + offset
 		with: (-1 * width@depth) + offset
 		with: width@depth + offset).
-	^ PolygonMorph vertices: verts color: morph color borderWidth: 2 borderColor: Color black.
+	^ PolygonMorph vertices: verts color: morph color borderWidth: 2 borderColor: Color black
