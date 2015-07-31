@@ -1,7 +1,7 @@
 as yet unclassified
 addSelfAndChildrenToMorph: aMorph y: yPos minX: minX maxX: maxX
 	
-	| newX width line firstPos lastPos curPos count |
+	| newX width firstPos lastPos curPos count offset |
 
 	width := maxX - minX.
 	self position: (minX + (width / 2) - (self width / 2)) @ yPos.
@@ -22,10 +22,8 @@ addSelfAndChildrenToMorph: aMorph y: yPos minX: minX maxX: maxX
 	].
 
 	(count > 1) ifTrue: [
-		firstPos := firstPos + aMorph position + ((self width / 2) @ -3).
-		lastPos := lastPos + aMorph position + ((self width / 2) @ -3).
-		line := LineMorph from: firstPos to: lastPos color: Color black width: 3.
-		(children at: 1) morph addMorph: line. "Hack: add line to child so the line get hidden when the child is hidden"
+		offset := (self width / 2) @ -3.
+		children first addLineFrom: firstPos + aMorph position + offset to: lastPos + aMorph position + offset.
 	]. 
 
-   ^ self position
+   	^ self position

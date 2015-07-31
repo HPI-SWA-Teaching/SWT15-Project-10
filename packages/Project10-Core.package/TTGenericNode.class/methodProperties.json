@@ -1,13 +1,14 @@
 {
 	"class" : {
 		"childPadding" : "potto 7/19/2015 21:42",
-		"fromQueryNode:" : "potto 7/29/2015 17:38",
-		"fromQueryNode:startingAt:" : "potto 7/29/2015 17:39",
+		"fromQueryNode:" : "potto 7/31/2015 19:51",
+		"fromQueryNode:startingAt:" : "potto 7/31/2015 19:52",
 		"subtreePadding" : "JKW 7/13/2015 14:24" },
 	"instance" : {
 		"addChild:" : "p-otto 5/18/2015 17:59",
+		"addLineFrom:to:" : "potto 7/31/2015 20:01",
 		"addSelfAndChildrenToMorph:" : "SK 7/27/2015 21:38",
-		"addSelfAndChildrenToMorph:y:minX:maxX:" : "potto 7/19/2015 21:29",
+		"addSelfAndChildrenToMorph:y:minX:maxX:" : "potto 7/31/2015 20:02",
 		"addToMorph:" : "potto 7/31/2015 14:13",
 		"calculateSubTreeDepth" : "JKW 7/12/2015 22:10",
 		"calculateSubTreeWidth" : "potto 7/19/2015 21:35",
@@ -18,7 +19,7 @@
 		"height" : "SK 7/27/2015 21:38",
 		"hideChildren" : "SK 7/31/2015 13:30",
 		"hideSelfAndChildren" : "SK 7/27/2015 21:39",
-		"initialize" : "SK 7/27/2015 21:40",
+		"initialize" : "potto 7/31/2015 19:51",
 		"morph" : "potto 6/15/2015 17:49",
 		"position" : "p-otto 5/27/2015 15:45",
 		"position:" : "p-otto 5/27/2015 15:42",

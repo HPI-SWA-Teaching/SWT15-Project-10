@@ -5,7 +5,6 @@ fromQueryNode: aQueryNode startingAt: aGenericNode
 
 	aGenericNode text: (aQueryNode at: #text) asString.
 	aGenericNode color: (aQueryNode at: #color ifAbsent: Color white).
-
 	(aQueryNode nodes) do: [ :child |
 		(child at: #text) ifNotNil: [
 			newGenericNode := TTGenericNode new.
