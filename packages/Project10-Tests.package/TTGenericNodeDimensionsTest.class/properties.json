@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"node" ],
+		 ],
 	"name" : "TTGenericNodeDimensionsTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "TTGenericNodeTest",
 	"type" : "normal" }

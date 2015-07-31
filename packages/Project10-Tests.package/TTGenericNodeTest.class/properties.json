@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "TTGenericNodePlacementTest",
+		"node" ],
+	"name" : "TTGenericNodeTest",
 	"pools" : [
 		 ],
-	"super" : "TTGenericNodeTest",
+	"super" : "TestCase",
 	"type" : "normal" }

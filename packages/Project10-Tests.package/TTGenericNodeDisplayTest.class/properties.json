@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"node",
 		"morph" ],
 	"name" : "TTGenericNodeDisplayTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "TTGenericNodeTest",
 	"type" : "normal" }
