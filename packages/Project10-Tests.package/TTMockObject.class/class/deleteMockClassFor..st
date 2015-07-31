@@ -1,13 +1,16 @@
 as yet unclassified
 deleteMockClassFor: aClassName
-	| classes |
+	| classes originalClass oldName |
 	
 	classes := self subclasses select: [ :class | class name = aClassName ].
 	classes first removeFromSystem.
 
 	classes := Object subclasses select: [ :class | class name = (aClassName , '1') ].
 	classes ifNotEmpty: [
-		classes first rename: aClassName.
+		originalClass := classes first.
+		oldName := originalClass name.
+		originalClass setName: aClassName.
+		originalClass environment renameClass: originalClass from: oldName.
 	].
 
 			 
