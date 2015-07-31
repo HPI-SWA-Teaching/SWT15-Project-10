@@ -4,7 +4,6 @@ setUp
 	|class grammarName|
 
 	super setUp.
-	TTMockSmalltalkProxy createMockClassIfNotExists: #OhmGrammarSmalltalkProxy.
 	grammarName := 'TestGrammar'.
 	self grammar: TTMockOhmGrammar new.
 	grammar grammarName: grammarName.
