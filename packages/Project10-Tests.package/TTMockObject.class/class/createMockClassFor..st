@@ -10,6 +10,6 @@ createMockClassFor: aClassName
 		instanceVariableNames: ''
 		classVariableNames: ''
 		poolDictionaries: ''
-		category: 'Project10-Tests' 
+		category: 'Project10-Tests'.
 	
 	
