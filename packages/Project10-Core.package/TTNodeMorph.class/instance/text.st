@@ -1,4 +1,4 @@
 as yet unclassified
 text
 
-	^ textMorph contents.
+	^ textMorph contents

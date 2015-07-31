@@ -1,5 +1,6 @@
 {
 	"class" : {
-		"createMockClassIfNotExists:" : "SK 7/29/2015 15:13" },
+		"createMockClassFor:" : "SK 7/31/2015 18:35",
+		"deleteMockClassFor:" : "SK 7/31/2015 19:39" },
 	"instance" : {
 		 } }
