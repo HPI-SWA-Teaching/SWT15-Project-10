@@ -5,6 +5,6 @@ testAllGrammars
 	
 	grammarName := 'TestGrammar'.
 	numberOfGrammarsBefore := TTOhmGrammarTools allGrammars size.
-	self createMockGrammar.
+	self grammar: (self createMockGrammarNamed: self grammarName).
 	numberOfGrammarsAfter := TTOhmGrammarTools allGrammars size.
 	self assert: (numberOfGrammarsAfter - numberOfGrammarsBefore = 1).

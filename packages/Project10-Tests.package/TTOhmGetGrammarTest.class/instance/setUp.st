@@ -2,7 +2,7 @@ as yet unclassified
 setUp 
 
 	super setUp.
-	self createMockGrammar.
+	self grammar: (self createMockGrammarNamed: self grammarName).
 	.	
 	
 	

@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"grammarName",
-		"smalltalkPlaceholder",
 		"superGrammar" ],
-	"name" : "TTMockOhmGrammar",
+	"name" : "TTOhmSuperGrammarTest",
 	"pools" : [
 		 ],
-	"super" : "TTMockObject",
+	"super" : "TTOhmGrammarToolTest",
 	"type" : "normal" }
