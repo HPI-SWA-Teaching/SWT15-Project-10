@@ -1,6 +1,8 @@
 accessing
 testTreeWidthGreaterThanChildren
+
 	| minWidth |
+
 	minWidth := self node children
 				inject: 0
 				into: [:sum :child | sum + child height].

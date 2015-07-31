@@ -1,6 +1,8 @@
 accessing
 testTreeDepthGreaterThanNodes
+
 	| minHeight maxChildHeight |
+
 	maxChildHeight := self node children
 		inject: 0
 		into: [:max :child | max max: child height].

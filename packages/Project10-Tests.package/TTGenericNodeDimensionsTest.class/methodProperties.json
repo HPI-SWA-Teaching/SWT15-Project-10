@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testLeafSubtreeDepthEqualsMorphHeight" : "SK 7/31/2015 14:42",
-		"testLeafSubtreeWidthEqualsMorphWidth" : "potto 7/31/2015 13:53",
-		"testTreeDepthGreaterThanNodes" : "SK 7/29/2015 20:17",
-		"testTreeWidthGreaterThanChildren" : "SK 7/29/2015 20:17" } }
+		"testLeafSubtreeDepthEqualsMorphHeight" : "potto 7/31/2015 15:24",
+		"testLeafSubtreeWidthEqualsMorphWidth" : "potto 7/31/2015 15:23",
+		"testTreeDepthGreaterThanNodes" : "potto 7/31/2015 15:24",
+		"testTreeWidthGreaterThanChildren" : "potto 7/31/2015 15:25" } }
