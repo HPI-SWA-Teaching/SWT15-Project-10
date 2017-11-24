@@ -1,2 +1,2 @@
-ViOhm [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/ViOhm.svg)](https://travis-ci.org/HPI-SWA-Teaching/ViOhm)
+ViOhm [![Build Status](https://travis-ci.org/hpi-swa-teaching/ViOhm.svg)](https://travis-ci.org/hpi-swa-teaching/ViOhm)
 ===================
